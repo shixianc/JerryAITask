@@ -13,7 +13,7 @@ Cases covered:
 1. Invalid input: non array type, invalid range, multiple ranges greater than 2, negative integers.
 2. Add with overlapping, remove with overlapping.
 
-## Screenshots (if appropriate):
+## Screenshots
 <img src="https://github.com/shixianc/JerryAITask/blob/master/screenshots/Screen%20Shot%202020-10-08%20at%203.36.22%20PM.png" width="500">
 
 ## Types of changes
