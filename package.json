@@ -1,0 +1,16 @@
+{
+  "name": "JerryAI",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "rangelist.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.5.2"
+  }
+}
