@@ -60,8 +60,19 @@ class RangeList {
       }
       currIndex++;
     }
-    // Save the intact part of the range list
+    this._mergeHelper(updatedList, currIndex);
+  }
+
+  /**
+   * Helper method to merge overlapping ranges starts from currIndex.
+   * Set the result list by concat the first half intact array with updated array.
+   * @param {Array<Array<number>>} updatedList - List used to store newly merged ranges.
+   * @param {number} currIndex - Index at first overlapping
+   */
+  _mergeHelper(updatedList, currIndex) {
+    // Save the un-mergeable part of the range list
     let firstHalf = this._ranges.slice(0, currIndex - 1);
+    const rangesLength = this._ranges.length;
     // Merge all overlapping ranges
     while (currIndex < rangesLength) {
       let [currStart, currEnd] = this._ranges[currIndex];
@@ -76,8 +87,6 @@ class RangeList {
       }
       currIndex++;
     }
-
-    // Set the result list by concat the first half intact array with updated array.
     this._ranges = firstHalf.concat(updatedList);
   }
 
