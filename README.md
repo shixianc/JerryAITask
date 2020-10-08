@@ -14,7 +14,7 @@ Cases covered:
 2. Add with overlapping, remove with overlapping.
 
 ## Screenshots (if appropriate):
-
+<img src="https://github.com/shixianc/JerryAITask/blob/master/screenshots/Screen%20Shot%202020-10-08%20at%203.36.22%20PM.png" width="500">
 
 ## Types of changes
 <!--- What types of changes does your code introduce? Put an `x` in all the boxes that apply: -->
